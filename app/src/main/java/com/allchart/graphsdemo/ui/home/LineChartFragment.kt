@@ -1,4 +1,4 @@
-package com.allchart.graphsdemo.ui.slideshow
+package com.allchart.graphsdemo.ui.home
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -7,20 +7,16 @@ import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import com.allchart.graphsdemo.R
 
-class SlideshowFragment : Fragment() {
+class LineChartFragment : Fragment() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
     }
 
-    override fun onCreateView(
-        inflater: LayoutInflater,
-        container: ViewGroup?,
-        savedInstanceState: Bundle?
-    ): View? {
-
-        val view = inflater.inflate(R.layout.fragment_slideshow, container, false)
+    override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View?
+    {
+        val view = inflater.inflate(R.layout.fragment_line_chart, container, false)
 
         return view
     }
