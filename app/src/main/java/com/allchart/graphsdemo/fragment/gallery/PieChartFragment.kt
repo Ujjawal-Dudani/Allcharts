@@ -1,4 +1,4 @@
-package com.allchart.graphsdemo.ui.gallery
+package com.allchart.graphsdemo.fragment.gallery
 
 import android.os.Bundle
 import android.view.LayoutInflater

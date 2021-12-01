@@ -7,19 +7,19 @@
 
     <fragment
         android:id="@+id/nav_home"
-        android:name="com.allchart.graphsdemo.ui.home.LineChartFragment"
+        android:name="com.allchart.graphsdemo.fragment.home.LineChartFragment"
         android:label="@string/menu_home"
         tools:layout="@layout/fragment_line_chart" />
 
     <fragment
         android:id="@+id/nav_gallery"
-        android:name="com.allchart.graphsdemo.ui.gallery.PieChartFragment"
+        android:name="com.allchart.graphsdemo.fragment.gallery.PieChartFragment"
         android:label="@string/menu_gallery"
         tools:layout="@layout/fragment_pie_chart" />
 
     <fragment
         android:id="@+id/nav_slideshow"
-        android:name="com.allchart.graphsdemo.ui.slideshow.BarChartFragment"
+        android:name="com.allchart.graphsdemo.fragment.slideshow.BarChartFragment"
         android:label="@string/menu_slideshow"
         tools:layout="@layout/fragment_bar_chart" />
 </navigation>

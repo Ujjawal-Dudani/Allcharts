@@ -1,4 +1,4 @@
-package com.allchart.graphsdemo.ui.slideshow
+package com.allchart.graphsdemo.fragment.slideshow
 
 import android.os.Bundle
 import android.view.LayoutInflater
